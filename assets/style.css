@@ -1,0 +1,93 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* debugging */
+/* border: 1px solid blue; */
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* color:white  */
+}
+body {
+    background-color: lightblue;
+    font-family: monospace;
+}
+p{
+    color: white;
+    font-size: 1.0em;
+}
+button{
+    outline: none;
+    background-color: ;
+}
+/* outer container section */
+.outer{
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+/* top bar */
+.top p{
+    float: right;
+}
+/* inner */
+.inner{
+    /* background-color: white; */
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* header and quiz style */
+h1, h2{
+ color: coral;
+ text-align: center; 
+ 
+ 
+}
+/* get rids of dot */
+li{
+    list-style-type: none;
+}
+.intro, main{
+   margin-bottom: 30vh; 
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.intro p{
+    text-align: center;
+}
+/* centers button */
+.intro button{
+    display: block;
+    margin: 0 auto;
+}
+/* quiz content */
+main {
+    display: block;
+
+}
+.intro{
+    display: none;
+}
+
+/* question screen */
+.question-screen{
+    display: none;
+}
+
+/* finished screen */
+.end-screen{
+    display: none;
+}
+
+/* highscores */
+.highscores{
+    display: block;
+}
