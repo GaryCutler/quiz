@@ -13,8 +13,6 @@ Once you answer a question you will be switched to another question. It will dis
 ## end screen
 it will display your score and allow you to submit your score with initals.
 
-## Link to depolyed application 
-https://garycutler.github.io/Student-Portfolio/
-
-## Website image 
-![Getting Started](./assets/images/pic-now.png)
+## deployed app
+https://garycutler.github.io/quiz/
+![Getting Started](./assets/images/Untitled.png)
