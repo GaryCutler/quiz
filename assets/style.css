@@ -18,7 +18,7 @@ p{
 }
 button{
     outline: none;
-    background-color: ;
+    /* background-color: ; */
 }
 /* outer container section */
 .outer{
@@ -74,14 +74,21 @@ main {
 
 }
 .intro{
-    display: none;
+    display: block;
 }
 
 /* question screen */
 .question-screen{
     display: none;
+
 }
 
+#wrong{
+    display: none;
+}
+#right{
+    display:none;
+}
 /* finished screen */
 .end-screen{
     display: none;
@@ -89,5 +96,5 @@ main {
 
 /* highscores */
 .highscores{
-    display: block;
+    display: none;
 }

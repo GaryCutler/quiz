@@ -15,7 +15,7 @@
     <!-- top bar -->
         <div class = "top">
             <button>View Highscores</button>
-            <p>Timer: 0</p>
+            <p class = time> Time:60s</p>
 
         </div>
     <!-- inner div -->
@@ -24,7 +24,7 @@
             <header class = "intro">
                 <h1>QUIZ</h1>
                 <p>Start quiz</p>
-                <button>START QUIZ</button>
+                <button id = "start-now">START QUIZ</button>
             </header>
             <!-- main content -->
             <main>
@@ -32,29 +32,36 @@
                     <h2>question here</h2>
                    <ul>
                     <!-- generate in JS -->
-                    <li><button>answer 1</button></li>
-                    <li><button>answer 2</button></li>
-                    <li><button>answer 3</button></li>
-                    <li><button>answer 4</button></li>
-                    
-                   </ul> 
+                    <li><button id = "answer1">answer 1</button></li>
+                    <li><button id = "answer2">answer 2</button></li>
+                    <li><button id = "answer3">answer 3</button></li>
+                    <li><button id = "answer4">answer 4</button></li>
 
+                   </ul> 
+                   
+                   <p id = "wrong">wrong</p>
+                   <p id = "right">right</p>
                 </section>
                 <!-- end screen -->
            <section class = "end-screen">
             <h2>Quiz Done</h2>
-            <p>Your final score</p>
-            <label for="">Enter Initials</label>
-            <input type ="text">
-            <button>Submit</button>
+            <p id = "final-score">"</p> 
+            <p>Initials:</p>
+            
+            <input type ="text" name= "intials" id = "intials">
+            <input type="button" id = "submitBut" value="click me">
+            <ul>
+                <li id = "submit1"></li>
+            </ul>
+           
            </section>
            <!-- highscores -->
            <section class = "highscores">
             <h2>highscores</h2>
             <ul>
                 <!-- generate in js  -->
-                <li>GC - 20</li>
-                <li>GC - 20</li>
+                <li id = "submit1">GC - 20</li>
+                <li>GC - 20</li> 
                 <li>GC - 20</li>
                 
             </ul>
@@ -64,6 +71,6 @@
         </div>
     </div>
 
-
+<script src="assets/script.js"></script>
 </body>
 </html>
